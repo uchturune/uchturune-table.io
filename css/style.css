@@ -2,7 +2,7 @@
 .background {
 
 background-image: url(https://i.ibb.co/vx9Hk4G/texture-space-by-mjag-d16kfan.jpg);
-
+background-size: cover;
 background-size: 50%;
 
 
@@ -10,7 +10,7 @@ background-size: 50%;
 }
 
 
-.title {
+h1 {
 
   margin-top: 100px;
   margin-left: 500px;
@@ -22,7 +22,7 @@ background-size: 50%;
 
 }
 
-.subtitle {
+h2 {
   margin-top: 200px;
   margin-left: 500px;
   text-align:  center;
