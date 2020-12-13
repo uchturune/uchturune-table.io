@@ -20,7 +20,7 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: darkgray;
+  background: black;
   border-radius: 10px;
 }
 
@@ -29,17 +29,48 @@
   background: black;
 }
 
+
+
 </style>
 
   </head>
 
-  <body class="background" >
+  <body class="background" style="zoom: 99%;" >
+
+    <div class="loader loader--active">
+        <div class="loader__icon">
+            <svg id="loader-1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40px" height="40px"
+                 viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
+          <path opacity="1" fill="blue" d="M20.201,5.169c-8.254,0-14.946,6.692-14.946,14.946c0,8.255,6.692,14.946,14.946,14.946s14.946-6.691,14.946-14.946C35.146,11.861,28.455,5.169,20.201,5.169z M20.201,31.749c-6.425,0-11.634-5.208-11.634-11.634c0-6.425,5.209-11.634,11.634-11.634c6.425,0,11.633,5.209,11.633,11.634C31.834,26.541,26.626,31.749,20.201,31.749z"></path>
+                <path fill="#000" d="M26.013,10.047l1.654-2.866c-2.198-1.272-4.743-2.012-7.466-2.012h0v3.312h0C22.32,8.481,24.301,9.057,26.013,10.047z"></path>
+                <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 20 20" to="360 20 20" dur="0.5s" repeatCount="indefinite"></animateTransform>
+        </svg>
+        </div>
+        <div class="loader__tile"></div>
+        <div class="loader__tile"></div>
+        <div class="loader__tile"></div>
+        <div class="loader__tile"></div>
+        <div class="loader__tile"></div>
+    </div>
+
 <br>
     <h1 class="title" >Interactive Periodic table of the elements</h1>
     <h2 alt="Workplace" usemap="#workmap" title="Click on what you want"
     class=" subtitle " >Click on the element you want</h2>
 
+    <header>
 
+        <img src="https://i.ibb.co/TRNVv4L/Logo-periodictable-com-Plan-de-travail-1-4x.png" alt="Logo-PeriodicTable.com" width="50" height="50" align="left" usemap="#youtube" style="max-width:100%;height:auto; margin-left: 30px; margin-top: 3px; " >
+        <h1 style=" margin-left: 100px; text-align:left; font-size:300%; font-family: sans-serif; margin-top: 0px; " >PeriodicTable.com</h1>
+        <h1 style=" color: black; font-size: 90%; background-color: #F1C40F; margin-top: 50px; margin-left: 100px; " >Site en construction</h1>
+        <nav class="button-menu">
+            <br>
+            <a href="qui%20suis-je.html" >À-propos</a>
+            <a href="page1.html" >Comment ça marche ?</a>
+            <a href="page1.html" >Page d'acceuil</a>
+            <a href="page1.html" >Mon compte/s'inscrire</a>
+        </nav>
+    </header>
 
     <img src="https://i.ibb.co/zhmyhF7/periodic-table-lg.png" alt="Workplace"
     usemap="#workmap" >
@@ -57,7 +88,7 @@
       <area shape="rect" coords="1620,300,1530,200" alt="Azote" href="file:///E:/GitHub/periodic-table/html/Elements/Azote.html" title="Azote">
       <area shape="rect" coords="1720,300,1630,200" alt="Oxygen" href="file:///E:/GitHub/periodic-table/html/Elements/Oxygen.html" title="Oxygen">
       <area shape="rect" coords="1820,300,1730,200" alt="Fluor" href="file:///E:/GitHub/periodic-table/html/Elements/Fluor.html" title="Fluor">
-      <area shape="rect" coords="1920,300,18  30,200" alt="Neon" href="file:///E:/GitHub/periodic-table/html/Elements/Neon.html " title="Neon">
+      <area shape="rect" coords="1920,300,1830,200" alt="Neon" href="file:///E:/GitHub/periodic-table/html/Elements/Neon.html " title="Neon">
       <area shape="rect" coords="100,300,200,400" alt="Sodium" href="file:///E:/GitHub/periodic-table/html/Elements/Sodium.html"title="Sodium">
       <area shape="rect" coords="200,300,300,400" alt="Magnesium" href="file:///E:/GitHub/periodic-table/html/Elements/Magnesium.html"title="Magnesium">
       <area shape="rect" coords="1420,300,1330,400" alt="Aluminium" href="file:///E:/GitHub/periodic-table/html/Elements/Aluminium.html" title="Aluminium">
@@ -139,7 +170,7 @@
       <area shape="rect" coords="1730,700,1820,800" alt="Tennesse" href="file:///E:/GitHub/periodic-table/html/Elements/Tennesse.html"title="Tennesse">
       <area shape="rect" coords="1830,700,1920,800" alt="Oganesson" href="file:///E:/GitHub/periodic-table/html/Elements/Oganesson.html"title="Oganesson">
       <area shape="rect" coords="430,830,520,920" alt="Cerium" href="file:///E:/GitHub/periodic-table/html/Elements/Cerium.html"title="Cerium">
-      <area shape="rect" coords="530,830,620,920" alt="Praséodyme" href="file:///E:/GitHub/periodic-table/html/Elements/Pras%C3%A9odyme.html"title="Praséodyme">
+      <area shape="rect" coords="530,830,620,920" alt="Praséodyme" href="file:///E:/GitHub/periodic-table/html/Elements/Praséodyme.html"title="Praséodyme">
       <area shape="rect" coords="630,830,720,920" alt="Neodyme" href="file:///E:/GitHub/periodic-table/html/Elements/Neodyme.html"title="Neodyme">
       <area shape="rect" coords="630,830,820,920" alt="Promethium" href="file:///E:/GitHub/periodic-table/html/Elements/Promethium.html"title="Promethium">
       <area shape="rect" coords="730,830,920,920" alt="Samarium" href="file:///E:/GitHub/periodic-table/html/Elements/Samarium.html"title="Samarium">
@@ -168,6 +199,6 @@
       <area shape="rect" coords="1730,930,1820,1020" alt="Lawrencium" href="file:///E:/GitHub/periodic-table/html/Elements/Lawrencium.html"title="Lawrencium">
 
     </map>
-
+<script src="E:/GitHub/periodic-table/js/loading.js"></script>
   </body>
 </html>
